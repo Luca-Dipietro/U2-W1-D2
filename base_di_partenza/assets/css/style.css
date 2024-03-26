@@ -21,19 +21,19 @@ hr {
 .toTop {
   line-height: 1;
   position: fixed;
-  right: -18px;
+  right: -20px;
   z-index: 1000;
 }
 
 .social {
-  top: 16px;
+  top: 15px;
 }
 
 .toTop {
-  bottom: 16px;
+  bottom: 15px;
 }
 
-@media screen and(max-width:700px) {
+@media screen and (max-width: 700px) {
   .social {
     top: unset;
     bottom: 96px;
@@ -186,7 +186,6 @@ h1 {
   font-weight: bold;
   letter-spacing: -0.03em;
   margin-bottom: 0.7em;
-  position: relative;
 }
 
 p,
